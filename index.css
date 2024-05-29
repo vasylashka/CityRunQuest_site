@@ -1,0 +1,249 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background: linear-gradient(to right, #91FF8F, #90AFFF);
+    color: white;
+    text-align: center;
+    padding: 5px 0 ;
+}
+
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 1em 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.text {
+    color: white;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.one-liner {
+    background: linear-gradient(to right, #91FF8F, #90AFFF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.one-liner .text h1 {
+    margin: 0;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.one-liner .text p {
+    font-size: 1.25rem;
+}
+
+.idea {
+    display: flex;
+    flex-direction: column;
+}
+
+.idea h1 {
+    text-align: center;
+    font-size: 2.25rem;
+    margin-bottom: 0;
+}
+
+.description {
+    padding: 60px;
+    padding-top: 0;
+    padding-bottom: 24px;
+}
+
+.description p {
+    font-size: 1.1rem;
+    text-align: center;
+    color: #191919;
+}
+
+li{
+    margin: 3px;
+} 
+
+.oportunities {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.oportunities div {
+    width: 450px;  
+}
+
+
+.gradient-text {
+    background: linear-gradient(to right, #91FF8F, #90AFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+.market {
+    background: linear-gradient(to right, #91FF8F, #90AFFF);
+    padding-bottom: 40px;
+}
+
+.white-text {
+    color: white;
+    text-align: center;
+    font-size: 2.25rem;
+    margin-bottom: 17.6px;
+    padding-top: 24.12px;
+    font-weight: 900;
+}
+
+.market-design {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+
+.market-info {
+    display: flex;
+    justify-content: center;
+    color: #191919;
+}
+
+.market-item {
+    background: white;
+}
+
+.market-item > p {
+    text-align: center;
+    font-weight: 700;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+}
+.info p {
+    margin: 10px;
+}
+
+.resize-diagram {
+    width: 1066px;
+}
+
+.market-diagram {
+    display: flex;
+    justify-content: center;
+}
+
+.slick-slider {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slick-slide {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.slick-slide img {
+    height: auto;
+    align-self: center;
+}
+
+.slick-slider .resize-slides {
+    width: 200px;
+}
+
+.mockup p {
+    text-align: center;
+    font-size: 2.25rem;
+}
+
+.mockup {
+    padding-bottom: 40px;
+}
+
+.gratitude {
+    background: linear-gradient(to right, #91FF8F, #90AFFF);
+    padding: 0 148px;
+    padding-bottom: 20px;
+}
+
+.gratitude-description{
+    display: flex;
+    align-items: center;
+}
+
+.crop-image{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+.graditude-text{
+    font-size: 1.25rem;
+    text-align: justify;
+    color: #191919;
+    padding-right: 10px;
+}
+
+.team > p {
+    text-align: center;
+    font-size: 2.25rem;
+}
+
+.team-info {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.team-member {
+    width: 300px;
+}
+
+.bigger {
+    width: 100%;
+}
+
+.team-member > p {
+    font-size: 1.25rem;
+    color: #191919;
+    text-align: center;
+}
+
+
+
+
